@@ -24,7 +24,7 @@ Route::get('/login',function () {
 Route::post('/login',[UserController::class,'login']);
 
 Route::get('/register', function () {
-    return view ('register');
+ return view ('signup');
 });
 
 Route::post('/register', [UserController::class, 'register']);
